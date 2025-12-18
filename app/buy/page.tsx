@@ -30,11 +30,11 @@ export default function BuyPage() {
           <div className="bg-white rounded-lg p-6 shadow-xl">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
               <div className="md:col-span-5">
-                <Input placeholder="Suburb, city or region..." className="h-12" />
+                <Input placeholder="Suburb, city or region..." className="h-12 text-slate-900" />
               </div>
               <div className="md:col-span-3">
                 <Select>
-                  <SelectTrigger className="h-12">
+                  <SelectTrigger className="h-12 text-slate-900">
                     <SelectValue placeholder="Property type" />
                   </SelectTrigger>
                   <SelectContent>
@@ -47,7 +47,7 @@ export default function BuyPage() {
                 </Select>
               </div>
               <div className="md:col-span-2">
-                <Button variant="outline" className="w-full h-12 gap-2 bg-transparent">
+                <Button variant="outline" className="w-full h-12 gap-2 bg-white text-slate-900 border-slate-300">
                   <SlidersHorizontal className="h-4 w-4" />
                   Filters
                 </Button>
@@ -90,7 +90,7 @@ export default function BuyPage() {
           <h2 className="text-2xl font-bold mb-6">Browse by Popular Suburbs</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {["Remuera", "Ponsonby", "Parnell", "Mission Bay", "St Heliers", "Herne Bay"].map((suburb) => (
-              <Button key={suburb} variant="outline" className="h-auto py-4 flex flex-col gap-2 bg-transparent">
+              <Button key={suburb} variant="outline" className="h-auto py-4 flex flex-col gap-2 bg-white">
                 <MapPin className="h-5 w-5 text-primary" />
                 <span>{suburb}</span>
               </Button>

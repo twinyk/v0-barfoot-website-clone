@@ -17,11 +17,11 @@ export default function RentPage() {
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-900 to-teal-800 text-white py-16">
+      <section className="bg-gradient-to-br from-emerald-900 via-teal-800 to-emerald-700 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-4 text-balance">Find Your Perfect Rental</h1>
-            <p className="text-xl text-emerald-100 mb-8 text-pretty">
+            <p className="text-xl text-white/90 mb-8 text-pretty">
               Discover quality rental properties across Auckland with flexible lease options.
             </p>
           </div>
@@ -30,11 +30,11 @@ export default function RentPage() {
           <div className="bg-white rounded-lg p-6 shadow-xl">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
               <div className="md:col-span-5">
-                <Input placeholder="Suburb, city or region..." className="h-12" />
+                <Input placeholder="Suburb, city or region..." className="h-12 text-slate-900" />
               </div>
               <div className="md:col-span-3">
                 <Select>
-                  <SelectTrigger className="h-12">
+                  <SelectTrigger className="h-12 text-slate-900">
                     <SelectValue placeholder="Property type" />
                   </SelectTrigger>
                   <SelectContent>
@@ -46,7 +46,7 @@ export default function RentPage() {
                 </Select>
               </div>
               <div className="md:col-span-2">
-                <Button variant="outline" className="w-full h-12 gap-2 bg-transparent">
+                <Button variant="outline" className="w-full h-12 gap-2 bg-white text-slate-900 border-slate-300">
                   <SlidersHorizontal className="h-4 w-4" />
                   Filters
                 </Button>

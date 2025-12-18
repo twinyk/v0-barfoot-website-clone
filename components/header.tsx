@@ -45,19 +45,22 @@ export function Header() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
-            <Link href="/buy" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/buy" className="text-sm font-medium text-black hover:text-primary transition-colors">
               Buy
             </Link>
-            <Link href="/rent" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/rent" className="text-sm font-medium text-black hover:text-primary transition-colors">
               Rent
             </Link>
-            <Link href="/sell" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/sell" className="text-sm font-medium text-black hover:text-primary transition-colors">
               Sell
             </Link>
-            <Link href="/market-reports" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link
+              href="/market-reports"
+              className="text-sm font-medium text-black hover:text-primary transition-colors"
+            >
               Market Reports
             </Link>
-            <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/about" className="text-sm font-medium text-black hover:text-primary transition-colors">
               About Us
             </Link>
           </nav>
