@@ -119,10 +119,7 @@ export function Header() {
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild>
-                  <Link href="/login">Sign In</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/register">Register</Link>
+                  <Link href="/sign-in">Sign In / Register</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
