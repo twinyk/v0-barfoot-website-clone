@@ -20,7 +20,7 @@ const propertyManagers = [
     properties: 45,
     rating: 4.9,
     certified: true,
-    image: "/professional-woman-property-manager.png",
+    image: "/professional-woman-property-manager.jpg",
   },
   {
     id: 2,

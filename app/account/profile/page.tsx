@@ -36,7 +36,7 @@ export default function ProfilePage() {
             <CardContent className="pt-6">
               <div className="flex items-center gap-6">
                 <Avatar className="h-24 w-24">
-                  <AvatarImage src="/placeholder.svg?height=96&width=96" />
+                  <AvatarImage src="/user-profile-avatar.jpg" />
                   <AvatarFallback className="text-2xl">JD</AvatarFallback>
                 </Avatar>
                 <div className="flex-1">
